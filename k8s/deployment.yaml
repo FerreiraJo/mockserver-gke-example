@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: mockserver
-        image: gcr.io/rengue/mockserver:latest
+        image: gcr.io/$PROJECT_ID/mockserver:latest
         ports:
           - containerPort: 1080

@@ -15,7 +15,7 @@ metadata:
   name: development
 description: Development Environment
 gke:
-  cluster: projects/rengue/locations/southamerica-east1/clusters/development
+  cluster: projects/$PROJECT_ID/locations/southamerica-east1/clusters/development
 ---
 apiVersion: deploy.cloud.google.com/v1beta1
 kind: Target
@@ -23,4 +23,4 @@ metadata:
   name: test
 description: Test Environment
 gke:
-  cluster: projects/rengue/locations/southamerica-east1/clusters/test
+  cluster: projects/$PROJECT_ID/locations/southamerica-east1/clusters/test
