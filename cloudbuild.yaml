@@ -11,4 +11,4 @@ steps:
     --delivery-pipeline=mockserver
     --region=southamerica-east1
     --source=./
-    --images=mockserver=gcr.io/$PROJECT_ID/mockserver
+    --images=mockserver=gcr.io/$PROJECT_ID/mockserver:latest
